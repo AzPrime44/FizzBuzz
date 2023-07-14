@@ -6,6 +6,10 @@ function SayFizzOrBuzz() {
 
   useEffect(() => {
     const interval = setInterval(() => {
+      if (number === 101) {
+        clearInterval(interval);
+        return;
+      }
       setNumber(number + 1);
       let newItem = '';
       if (number % 3 === 0 && number % 5 === 0) {
