@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+body {
+  background-color: #282c33;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex: 1;
+  height: 90vh;
+  overflow: auto;
+}
+li {
+  list-style: none;
+  color: white;
+}
